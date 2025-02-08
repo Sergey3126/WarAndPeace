@@ -31,8 +31,8 @@ public class WarAndPeace {
             for (int i = 0; i < top; i++)
                 System.out.println(list.get(i));
             System.out.println("Введите слово которое ищем");
-            String word= scanner.next();
-            System.out.println(scan.search(clearFile,word));
+            String word = scanner.next();
+            System.out.println(scan.search(clearFile, word));
         } catch (IOException e) {
             System.err.println("Ошибка при чтении файла: " + e.getMessage());
         }
